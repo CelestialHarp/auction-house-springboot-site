@@ -1,6 +1,14 @@
 
 :root{
+    box-sizing: border-box;
 }
-.row-footer {
-    display: fle
+.section-container{
+    display: flex;
+}
+.footer-container {
+    display: flex;
+}
+.footer-row {
+    display: grid;
+    place-items: center;
 }

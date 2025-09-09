@@ -1,9 +1,12 @@
 /*Color variables*/
 /* test colors when done adding and organizing HTML elements.*/ 
 :root {
-    --base-color: hsla(0, 0%, 0%, 0.93);
-    --base-color-shade-2: hsla(0, 0%, 0%, 0.93);
-    --base-color-shade-2: hsla(0, 0%, 0%, 0.93);
-    --base-color-shade-2: hsla(0, 0%, 0%, 0.93);
+    --base-color: hsl(0, 0%, 0%);
+    --base-color-shade-2: hsl(0, 0%, 5%);
+    --base-color-shade-3: hsl(0, 0%, 10%);
+
+    --golden-color: hsl(33, 100%, 30%);
+    --golden-color-shade-1: hsl(33, 100%, 35%);
+    --golden-color-shade-2: hsl(33, 100%, 40%);
 
 }
