@@ -2,11 +2,21 @@
 /* test colors when done adding and organizing HTML elements.*/ 
 :root {
     --base-color: hsl(0, 0%, 0%);
-    --base-color-shade-2: hsl(0, 0%, 5%);
-    --base-color-shade-3: hsl(0, 0%, 10%);
+    --base-color-shade-1: hsl(0, 0%, 5%);
+    --base-color-shade-2: hsl(0, 0%, 10%);
 
     --golden-color: hsl(33, 100%, 30%);
     --golden-color-shade-1: hsl(33, 100%, 35%);
     --golden-color-shade-2: hsl(33, 100%, 40%);
+    
+    --silver-gray-color: hsl(0, 0%, 41%);
 
+    /*spacing variables:*/
+    --margin-xxs: .25rem;
+    --margin-xs:.50rem;
+    --margin-s:.075rem;
+    --margin-m: 1rem;
+    --margin-l:1.25rem;
+    --margin-xl:1.75rem;
+    --margin-xxl: 2.5rem;
 }

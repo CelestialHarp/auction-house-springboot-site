@@ -2,6 +2,9 @@
 :root{
     box-sizing: border-box;
 }
+.menu{
+    display: flex;
+}
 .section-container{
     display: flex;
 }
@@ -11,4 +14,9 @@
 .footer-row {
     display: grid;
     place-items: center;
+    margin-left: 3vw;
+    margin-right: auto;
+}
+.footer-row span ~ * {
+    justify-self: start;
 }
